@@ -1,0 +1,9 @@
+UnPlug 'pangloss/vim-javascript'
+UnPlug 'elixir-lang/vim-elixir'
+UnPlug 'fatih/vim-go'
+Plug 'preservim/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" vim-plug
+Plug 'rescript-lang/vim-rescript'
+

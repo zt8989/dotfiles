@@ -49,6 +49,7 @@ if g:has_async
   Plug 'dense-analysis/ale'
 endif
 
+source ~/.vim/vimrc.bundles.local
 if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local
 endif
