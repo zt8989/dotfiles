@@ -1,9 +1,16 @@
-UnPlug 'pangloss/vim-javascript'
-UnPlug 'elixir-lang/vim-elixir'
-UnPlug 'fatih/vim-go'
+UnPlug 'vim-javascript'
+UnPlug 'vim-elixir'
+UnPlug 'vim-go'
+UnPlug 'vim-bundler'
+UnPlug 'vim-rails'
+UnPlug 'vim-rake'
+UnPlug 'vim-ruby'
+
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " vim-plug
 Plug 'rescript-lang/vim-rescript'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
