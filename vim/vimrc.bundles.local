@@ -5,6 +5,8 @@ UnPlug 'vim-bundler'
 UnPlug 'vim-rails'
 UnPlug 'vim-rake'
 UnPlug 'vim-ruby'
+UnPlug 'vim-endwise'
+UnPlug 'ale'
 
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -13,4 +15,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'rescript-lang/vim-rescript'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'liuchengxu/vim-which-key'
+Plug 'brglng/vim-im-select'
+
 

@@ -168,7 +168,7 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 let g:NERDTreeWinSize = 25 "设定 NERDTree 视窗大小
 let NERDTreeShowBookmarks=1  " 开启Nerdtree时自动显示Bookmarks
 "打开vim时如果没有文件自动打开NERDTree
-" autocmd vimenter * if !argc()|NERDTree|endif
+autocmd vimenter * if !argc()|NERDTree|endif
 "当NERDTree为剩下的唯一窗口时自动关闭
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 " 设置树的显示图标
@@ -181,4 +181,6 @@ let g:NERDTreeHidden=0     "不显示隐藏文件
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 nnoremap <C-n> :NERDTreeToggle<CR> " 开启/关闭nerdtree快捷键
+
+let g:im_select_default = 'com.apple.keylayout.US'
 
