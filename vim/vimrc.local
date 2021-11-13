@@ -14,3 +14,7 @@ command! -bang -nargs=* Rg
 " asyncrun
 let g:asyncrun_open=6
 let g:terminal_key = '<m-=>'
+noremap <Leader>y "*y
+noremap <Leader>p "*p
+noremap <Leader>Y "+y
+noremap <Leader>P "+p

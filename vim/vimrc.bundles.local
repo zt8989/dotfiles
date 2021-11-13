@@ -20,7 +20,5 @@ Plug 'liuchengxu/vim-which-key'
 Plug 'brglng/vim-im-select'
 Plug 'skywind3000/vim-terminal-help'
 Plug 'skywind3000/asyncrun.vim'
-Plug 'sonph/onehalf', { 'rtp': 'vim' }
-Plug 'altercation/vim-colors-solarized'
-
+Plug 'morhetz/gruvbox'
 
