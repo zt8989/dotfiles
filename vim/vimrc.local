@@ -221,4 +221,6 @@ syntax enable
 set background=light
 colorscheme solarized
 
-g:asyncrun_open=6
+let g:asyncrun_open=6
+let g:solarized_termcolors=256
+
