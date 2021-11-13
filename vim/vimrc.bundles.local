@@ -16,4 +16,11 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'rescript-lang/vim-rescript'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'liuchengxu/vim-which-key'
+Plug 'brglng/vim-im-select'
+Plug 'skywind3000/vim-terminal-help'
+Plug 'skywind3000/asyncrun.vim'
+Plug 'sonph/onehalf', { 'rtp': 'vim' }
+Plug 'altercation/vim-colors-solarized'
+
 
