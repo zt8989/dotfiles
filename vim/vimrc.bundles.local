@@ -19,8 +19,10 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'liuchengxu/vim-which-key'
 Plug 'brglng/vim-im-select'
 Plug 'skywind3000/vim-terminal-help'
+Plug 'skywind3000/asynctasks.vim'
 Plug 'skywind3000/asyncrun.vim'
 " Plug 'morhetz/gruvbox'
 Plug 'beikome/cosme.vim'
 Plug 'sainnhe/everforest'
-
+Plug 'sonph/onehalf', {'rtp': 'vim/'}
+Plug 'liuchengxu/vista.vim'

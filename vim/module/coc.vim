@@ -105,6 +105,7 @@ nmap <leader>a  <Plug>(coc-codeaction-selected)
 nmap <leader>ac  <Plug>(coc-codeaction)
 " Apply AutoFix to problem on the current line.
 nmap <leader>qf  <Plug>(coc-fix-current)
+nmap <leader>rf <Plug>(coc-refactor)
 
 " Map function and class text objects
 " NOTE: Requires 'textDocument.documentSymbol' support from the language server.
@@ -165,4 +166,4 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 nnoremap <silent><nowait> <space>g  :<C-u>CocList grep<CR>
 
-let g:coc_global_extensions = ['coc-html','coc-css','coc-tabnine','coc-snippets','coc-prettier','coc-lists','coc-eslint','coc-emmet','coc-tsserver','coc-json', 'coc-pairs']
+let g:coc_global_extensions = ['coc-html','coc-css','coc-tabnine','coc-snippets','coc-prettier','coc-lists','coc-eslint','coc-emmet','coc-tsserver','coc-json', 'coc-pairs', 'coc-cssmodules']
