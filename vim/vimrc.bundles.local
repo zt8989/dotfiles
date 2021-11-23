@@ -1,13 +1,19 @@
-UnPlug 'vim-javascript'
-UnPlug 'vim-elixir'
-UnPlug 'vim-go'
-UnPlug 'vim-bundler'
-UnPlug 'vim-rails'
-UnPlug 'vim-rake'
-UnPlug 'vim-ruby'
-UnPlug 'vim-endwise'
-UnPlug 'ale'
-UnPlug 'vim-projectionist'
+if !has('win32')
+  UnPlug 'vim-javascript'
+  UnPlug 'vim-elixir'
+  UnPlug 'vim-go'
+  UnPlug 'vim-bundler'
+  UnPlug 'vim-rails'
+  UnPlug 'vim-rake'
+  UnPlug 'vim-ruby'
+  UnPlug 'vim-endwise'
+  UnPlug 'ale'
+  UnPlug 'vim-projectionist'
+endif
+
+if has('nvim')
+  Plug 'glepnir/dashboard-nvim'
+endif
 
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -27,5 +33,13 @@ Plug 'sainnhe/everforest'
 Plug 'sonph/onehalf', {'rtp': 'vim/'}
 Plug 'liuchengxu/vista.vim'
 Plug '~/.vim/plugins/BufOnly'
-Plug 'glepnir/dashboard-nvim'
 Plug 'easymotion/vim-easymotion'
+" If you have nodejs and yarn
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+Plug 'skywind3000/vim-dict'
+Plug 'ferrine/md-img-paste.vim'
+Plug 'christoomey/vim-tmux-navigator'
+
+" Plug 'ludovicchabant/vim-gutentags'
+" Plug 'skywind3000/gutentags_plus'
+
