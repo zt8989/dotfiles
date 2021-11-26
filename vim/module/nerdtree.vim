@@ -20,7 +20,7 @@ let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 
 nnoremap <C-n> :NERDTreeToggle<CR> " 开启/关闭nerdtree快捷键
-nnoremap <C-f> :NERDTreeFind<CR>
+nnoremap <leader>fc :NERDTreeFind<CR>
 
 " Start NERDTree when Vim starts with a directory argument.
 autocmd StdinReadPre * let s:std_in=1

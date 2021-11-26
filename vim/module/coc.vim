@@ -109,6 +109,7 @@ xmap <leader>qf  <Plug>(coc-fix-current)
 nmap <leader>qf  <Plug>(coc-fix-current)
 xmap <leader>rf <Plug>(coc-refactor)
 nmap <leader>rf <Plug>(coc-refactor)
+vmap <leader>rf <Plug>(coc-refactor)
 
 " Map function and class text objects
 " NOTE: Requires 'textDocument.documentSymbol' support from the language server.
