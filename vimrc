@@ -55,6 +55,7 @@ augroup vimrcEx
   autocmd BufRead,BufNewFile gitconfig.local set filetype=gitconfig
   autocmd BufRead,BufNewFile tmux.conf.local set filetype=tmux
   autocmd BufRead,BufNewFile vimrc.local set filetype=vim
+
 augroup END
 
 " ALE linting events
@@ -167,7 +168,8 @@ nnoremap <C-l> <C-w>l
 " nnoremap [r :ALEPreviousWrap<CR>
 
 " Map Ctrl + p to open fuzzy find (FZF)
-nnoremap <c-p> :Files<cr>
+nnoremap <C-p> :Files<cr>
+nnoremap <C-M-p> :Rg<cr>
 
 " Set spellfile to location that is guaranteed to exist, can be symlinked to
 " Dropbox or kept in Git and managed outside of thoughtbot/dotfiles using rcm.

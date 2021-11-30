@@ -10,6 +10,7 @@ endfunction
 " nnoremap <silent> <C-g>c :call FZFOpen(':Commands')<CR>
 " nnoremap <silent> <C-g>l :call FZFOpen(':BLines')<CR>
 nnoremap <silent> <C-p> :call FZFOpen(':Files')<CR>
+nnoremap <silent> <C-M-o> :Vista finder coc<CR>
 
 command! -bang -nargs=* Rg
   \ call fzf#vim#grep(

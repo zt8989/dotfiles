@@ -1,8 +1,11 @@
-syntax enable
-set t_Co=256 "告知配色，终端支持256色。
-set background=dark
-colorscheme gruvbox
-let g:airline_theme='gruvbox'
-" set background=dark
-" colorscheme everforest
-" let g:airline_theme='everforest'
+if exists('+termguicolors')
+  let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+  let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+  set termguicolors
+endif
+
+syntax on
+set t_Co=256
+set cursorline
+colorscheme onehalfdark
+let g:airline_theme='onehalfdark'
