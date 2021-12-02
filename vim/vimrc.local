@@ -143,3 +143,6 @@ autocmd FileType markdown nmap <buffer><silent> <leader>i :call mdip#MarkdownCli
 nnoremap <M-q> :q<cr>
 inoremap <M-q> <Esc>
 
+" key mapping
+nnoremap <C-u> 10k<cr>
+nnoremap <C-d> 10j<cr>
