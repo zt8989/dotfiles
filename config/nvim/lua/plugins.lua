@@ -49,11 +49,16 @@ return packer.startup(function()
 
   use { 'junegunn/fzf.vim' }
   use { 'janko-m/vim-test' }
+  -- :e this/does/not/exist/file.txt
   use { 'pbrisbin/vim-mkdir' }
+  -- highlight form vim-slim
   use { 'slim-template/vim-slim' }
+  -- Vim sugar for the UNIX shell commands that need it the most
+  -- :DELETE :MOVE ...
   use { 'tpope/vim-eunuch' }
   use { 'tpope/vim-fugitive' }
   use { 'tpope/vim-repeat' }
+  -- git blame
   use { 'tpope/vim-rhubarb' }
   use { 'tpope/vim-surround' }
   use { 'vim-scripts/tComment' }
@@ -61,6 +66,7 @@ return packer.startup(function()
     'nvim-telescope/telescope.nvim',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
+  use { 'ryanoasis/vim-devicons' }
   
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
