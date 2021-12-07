@@ -40,7 +40,7 @@ return packer.startup(function()
   use { 'ferrine/md-img-paste.vim' }
   use { 'christoomey/vim-tmux-navigator' }
   -- useins can have post-install/update hooks
-  use {'iamcco/markdown-preview.nvim', run = 'cd app && yarn install', cmd = 'MarkdownPreview'}
+  use {'iamcco/markdown-preview.nvim', run = 'cd app && yarn install'}
 
   -- Post-install/update hook with neovim command
   use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
@@ -57,6 +57,10 @@ return packer.startup(function()
   use { 'tpope/vim-rhubarb' }
   use { 'tpope/vim-surround' }
   use { 'vim-scripts/tComment' }
+  use {
+    'nvim-telescope/telescope.nvim',
+    requires = { {'nvim-lua/plenary.nvim'} }
+  }
   
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

@@ -146,3 +146,8 @@ inoremap <M-q> <Esc>
 " key mapping
 nnoremap <C-u> 10k<cr>
 nnoremap <C-d> 10j<cr>
+
+" vim which key
+"
+nnoremap <silent> <leader> :WhichKey ','<CR>
+set timeoutlen=500

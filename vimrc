@@ -170,8 +170,8 @@ nnoremap <C-l> <C-w>l
 " nnoremap [r :ALEPreviousWrap<CR>
 
 " Map Ctrl + p to open fuzzy find (FZF)
-nnoremap <C-p> :Files<cr>
-nnoremap <C-M-p> :Rg<cr>
+" nnoremap <C-p> :Files<cr>
+" nnoremap <C-M-p> :Rg<cr>
 
 " Set spellfile to location that is guaranteed to exist, can be symlinked to
 " Dropbox or kept in Git and managed outside of thoughtbot/dotfiles using rcm.
