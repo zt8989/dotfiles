@@ -66,6 +66,10 @@ return packer.startup(function()
     'nvim-telescope/telescope.nvim',
     requires = { {'nvim-lua/plenary.nvim'} }
   }
+  use {
+    'nvim-lua/popup.nvim',
+    requires = { {'nvim-lua/plenary.nvim'} }
+  }
   use { 'ryanoasis/vim-devicons' }
   
   -- Automatically set up your configuration after cloning packer.nvim

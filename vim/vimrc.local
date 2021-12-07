@@ -1,5 +1,5 @@
 source ~/.vim/module/nerdtree.vim
-source ~/.vim/module/coc.vim
+" source ~/.vim/module/coc.vim
 source ~/.vim/module/airline.vim
 source ~/.vim/module/colors.vim
 source ~/.vim/module/asyncrun.vim
