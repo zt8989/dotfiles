@@ -1,14 +1,15 @@
-set guifont=FiraCode\ Nerd\ Font\ Mono:h14
-set guioptions-=m
-set guioptions-=T
-set noeb vb t_vb=
-au GUIEnter * set vb t_vb=
-
-set encoding=utf-8
+if has("gui_running")
+  set guifont=FiraCode\ Nerd\ Font\ Mono:h14
+  set guioptions-=m
+  set guioptions-=T
+  set noeb vb t_vb=
+  au GUIEnter * set vb t_vb=
+endif
 
 " Leader
 let mapleader = ","
 
+set encoding=utf-8
 set backspace=2   " Backspace deletes like most programs in insert mode
 set nobackup
 set nowritebackup

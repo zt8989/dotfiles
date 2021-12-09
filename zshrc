@@ -60,6 +60,7 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
+export TERM=xterm-256color
 
 eval "$(lua ~/z.lua/z.lua  --init zsh once enhanced)"
 

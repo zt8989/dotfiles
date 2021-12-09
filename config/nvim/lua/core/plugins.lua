@@ -71,6 +71,8 @@ return packer.startup(function()
     requires = { {'nvim-lua/plenary.nvim'} }
   }
   use { 'ryanoasis/vim-devicons' }
+  use { 'adelarsq/vim-matchit' }
+
   
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
