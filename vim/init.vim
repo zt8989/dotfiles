@@ -2,7 +2,6 @@ if has("gui_running")
   set guifont=FiraCode\ Nerd\ Font\ Mono:h14
   set guioptions-=m
   set guioptions-=T
-  set noeb vb t_vb=
   au GUIEnter * set vb t_vb=
 endif
 
@@ -22,6 +21,8 @@ set laststatus=2  " Always display the status line
 set autowrite     " Automatically :write before running commands
 set modelines=0   " Disable modelines as a security precaution
 set nomodeline
+set noeb vb t_vb=
+filetype plugin indent on
 
 source ~/.vim/module/plugins.vim
 source ~/.vim/module/keymaps.vim

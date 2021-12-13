@@ -31,7 +31,7 @@ Plug 'skywind3000/asyncrun.vim'
 Plug 'morhetz/gruvbox'
 Plug 'sonph/onehalf', {'rtp': 'vim/'}
 Plug 'liuchengxu/vista.vim'
-Plug '~/.vim/plugins/BufOnly'
+Plug 'vim-scripts/BufOnly.vim'
 Plug 'easymotion/vim-easymotion'
 " If you have nodejs and yarn
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }

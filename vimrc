@@ -1,3 +1,4 @@
+if has("nvim")
 set encoding=utf-8
 
 " Leader
@@ -15,6 +16,7 @@ set laststatus=2  " Always display the status line
 set autowrite     " Automatically :write before running commands
 set modelines=0   " Disable modelines as a security precaution
 set nomodeline
+set noeb vb t_vb=
 
 " Switch syntax highlighting on, when the terminal has colors
 " Also switch on highlighting the last used search pattern.
@@ -22,6 +24,7 @@ set nomodeline
 "   syntax on
 " endif
 
+let g:plug_url_format = "https://hub.fastgit.org/%s.git"
 if !has("nvim")
   if filereadable(expand("~/.vimrc.bundles"))
     source ~/.vimrc.bundles
@@ -181,7 +184,6 @@ if &diff
 endif
 
 source ~/.vim/vimrc.local
-" Local config
-if filereadable($HOME . "/.vimrc.local")
-  source ~/.vimrc.local
+else 
+  source ~/.vim/init.vim
 endif

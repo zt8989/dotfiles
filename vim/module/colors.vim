@@ -7,5 +7,8 @@ endif
 syntax on
 set t_Co=256
 set cursorline
-" colorscheme onehalfdark
+set background=dark
+if !has("nvim")
+  colorscheme onehalfdark
+endif
 let g:airline_theme='onehalfdark'
