@@ -16,8 +16,6 @@ return packer.startup(function()
   -- Packer can manage itself
   use { 'wbthomason/packer.nvim' }
 
-  use { 'glepnir/dashboard-nvim' }
-
   use { 'preservim/nerdtree' }
   use { 'Xuyuanp/nerdtree-git-plugin' }
   use { 'neoclide/coc.nvim', branch = 'release' }

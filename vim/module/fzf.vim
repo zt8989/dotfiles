@@ -16,8 +16,7 @@ endfunction
 nnoremap <silent> <C-p> :call FZFOpen(':Telescope find_files')<cr>
 
 " Find files using Telescope command-line sugar.
-" nnoremap <leader>ff <cmd>Telescope find_files<cr>
-" nnoremap <leader>fg <cmd>Telescope live_grep<cr>
-" nnoremap <leader>fb <cmd>Telescope buffers<cr>
-" nnoremap <leader>fh <cmd>Telescope help_tags<cr>
-" nnoremap <C-p> <cmd>Telescope find_files<cr>
+nnoremap <leader>ff FZFOpen(':Telescope find_files')<cr>
+nnoremap <leader>fg FZFOpen(':Telescope live_grep')<cr>
+nnoremap <leader>fb FZFOpen(':Telescope buffers')<cr>
+nnoremap <leader>fh FZFOpen(':Telescope help_tags')<cr>
