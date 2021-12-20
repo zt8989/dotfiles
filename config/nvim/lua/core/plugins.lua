@@ -31,7 +31,6 @@ return packer.startup(function()
   use { 'morhetz/gruvbox' }
   use { 'sonph/onehalf', rtp = 'vim/', config = 'vim.cmd[[colorscheme onehalfdark]]' }
   use { 'liuchengxu/vista.vim' }
-  use { '~/.vim/plugins/BufOnly' }
   use { 'easymotion/vim-easymotion' }
   -- If you have nodejs and yarn
   use { 'skywind3000/vim-dict' }
@@ -70,8 +69,8 @@ return packer.startup(function()
   }
   use { 'ryanoasis/vim-devicons' }
   use { 'adelarsq/vim-matchit' }
+  use { 'vim-scripts/BufOnly.vim' }
 
-  
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if packer_bootstrap then

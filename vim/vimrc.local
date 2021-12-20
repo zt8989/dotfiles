@@ -6,6 +6,7 @@ source ~/.vim/module/asyncrun.vim
 source ~/.vim/module/fzf.vim
 
 let g:im_select_default = 'com.apple.keylayout.US'
+set ic
 
 
 " asyncrun
@@ -131,6 +132,7 @@ autocmd FileType markdown nmap <buffer><silent> <leader>i :call mdip#MarkdownCli
 " there are some defaults for image directory and image name, you can change them
 " let g:mdip_imgdir = 'img'
 " let g:mdip_imgname = 'image'
+nnoremap <M-d> :bd<cr>
 nnoremap <M-q> :q<cr>
 inoremap <M-q> <Esc>
 
