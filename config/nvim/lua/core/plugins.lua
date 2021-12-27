@@ -70,6 +70,7 @@ return packer.startup(function()
   use { 'ryanoasis/vim-devicons' }
   use { 'adelarsq/vim-matchit' }
   use { 'vim-scripts/BufOnly.vim' }
+  use { "zhou13/vim-easyescape" }
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

@@ -8,6 +8,7 @@
     "graphql",
     "rescript"
   ],
+  "javascript.suggestionActions.enabled": false,
   "languageserver": {
     "rescript": {
       "enable": true,
@@ -16,5 +17,12 @@
       "filetypes": ["rescript"],
       "rootPatterns": ["bsconfig.json"]
     }
-  }
+  },
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-1.8",
+      "path": "/Users/zhouteng/Library/Java/JavaVirtualMachines/azul-1.8.0_312/Contents/Home",
+      "default": true
+    }
+  ]
 }
