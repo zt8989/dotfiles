@@ -68,9 +68,10 @@ return packer.startup(function()
     requires = { {'nvim-lua/plenary.nvim'} }
   }
   use { 'ryanoasis/vim-devicons' }
-  use { 'adelarsq/vim-matchit' }
   use { 'vim-scripts/BufOnly.vim' }
-  use { "zhou13/vim-easyescape" }
+  use { 'andymass/vim-matchup' }
+  use { 'jdhao/better-escape.vim' }
+  use { 'mhinz/vim-startify' }
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
