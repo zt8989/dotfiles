@@ -1,12 +1,15 @@
 {
+  "prettier.formatterPriority": 100,
   "coc.preferences.formatOnSaveFiletypes": [
     "markdown",
     "json",
+    "javascript",
     "typescript",
     "javascriptreact",
     "typescriptreact",
     "graphql",
-    "rescript"
+    "rescript",
+    "html"
   ],
   "javascript.suggestionActions.enabled": false,
   "languageserver": {
@@ -24,5 +27,6 @@
       "path": "/Users/zhouteng/Library/Java/JavaVirtualMachines/azul-1.8.0_312/Contents/Home",
       "default": true
     }
-  ]
+  ],
+  "groovy.java.home": "/Users/zhouteng/Library/Java/JavaVirtualMachines/azul-1.8.0_312/Contents/Home"
 }

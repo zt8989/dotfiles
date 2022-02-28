@@ -165,7 +165,7 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 nnoremap <silent><nowait> <space>g  :<C-u>CocList grep<CR>
 
-let g:coc_global_extensions = ['coc-html','coc-css','coc-tabnine','coc-snippets','coc-prettier','coc-lists','coc-eslint','coc-emmet','coc-tsserver','coc-json', 'coc-pairs', 'coc-cssmodules']
+let g:coc_global_extensions = ['coc-html','coc-css','coc-snippets','coc-prettier','coc-lists','coc-eslint','coc-emmet','coc-tsserver','coc-json', 'coc-pairs', 'coc-cssmodules']
 
 autocmd VimLeavePre * :call coc#rpc#kill()
 autocmd VimLeave * if get(g:, 'coc_process_pid', 0) | call system('kill -9 -'.g:coc_process_pid) | endif

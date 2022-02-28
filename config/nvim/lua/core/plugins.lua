@@ -72,6 +72,8 @@ return packer.startup(function()
   use { 'andymass/vim-matchup' }
   use { 'jdhao/better-escape.vim' }
   use { 'mhinz/vim-startify' }
+  use { 'jparise/vim-graphql' }
+  use { 'github/copilot.vim' }
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
